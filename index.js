@@ -35,16 +35,16 @@ const orderTwoIssuer = User1.publicKey;
 const orderTwoSignature = sign(orderTwo, orderOneIssuer, User2.privateKey);
 
 console.log(
-  `%c 
--̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶`,
-  `font-family: monospace`
-);
-
-console.log(
   "Order #1 status:",
   verify(orderOne, orderOneIssuer, orderOneSignature)
 );
 console.log(
   "Order #2 status:",
   verify(orderTwo, orderTwoIssuer, orderTwoSignature)
+);
+
+console.log(
+  `%c 
+-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶-̶`,
+  `font-family: monospace`
 );

@@ -1,3 +1,4 @@
+const { Wallet } = require("./Wallet");
 const Transaction = (exports.Transaction = class Transaction {
   constructor(opts = {}) {
     Object.assign(
