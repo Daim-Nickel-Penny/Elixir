@@ -1,4 +1,3 @@
-//Building Wallet
 const { createHash, createECDH, createSign, createVerify } = require("crypto");
 
 const Wallet = (exports.Wallet = class Wallet {
