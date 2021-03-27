@@ -5,6 +5,8 @@ const User2 = Wallet.create();
 
 const blockchain = [];
 
+console.log("----Mining In progress----");
+
 blockchain.push(
   new Block({
     parentHash: null,
