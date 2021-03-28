@@ -33,3 +33,5 @@ This is the page where the current balance, status and previous history is store
   <img src="public\el4.png" width="439" title="Mine Page">
   <img src="public\el3.PNG" width="439" alt="State">
 </p>
+
+## Tʜᴀɴᴋ Yᴏᴜ⚡
