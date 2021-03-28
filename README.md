@@ -1,7 +1,7 @@
 ##
 
 <p align="center">
-  <img src="public\el5.png" width="439" title="Main Page">
+  <img src="public\el5.PNG" width="439" title="Main Page">
 </p>
 
 This is a small cryptocurrency pattern following hash coin. This is built using Node.Js and follows some of the important concepts of blockchain.
